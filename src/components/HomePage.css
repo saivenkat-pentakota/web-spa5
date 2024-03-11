@@ -1,0 +1,9 @@
+.hero-header {
+    margin-top: -75px;
+    background: url(../images/bg-hero.png) center center no-repeat;
+    background-size: cover;
+}
+
+.hero-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
